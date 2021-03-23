@@ -1,0 +1,37 @@
+main {
+    min-height: 80vh;
+}
+
+img {
+    max-width: 100%;
+}
+
+.banner-thumbnail {
+    border-radius: 15px;
+}
+
+.banner-section {
+    margin: 150px 0;
+}
+
+a.btn.btn-primary {
+    background-color: #71966a;
+    border-color: #71966a;
+}
+
+a.btn.btn-primary:active,
+a.btn.btn-primary:link,
+a.btn.btn-primary:visited,
+a.btn.btn-primary:hover,
+a.btn.btn-primary:focus {
+    background-color: #71966a !important;
+    border-color: #71966a !important;
+}
+a.btn.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem #dee5c4 !important;
+}
+
+.banner-text h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
