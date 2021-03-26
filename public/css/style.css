@@ -35,3 +35,11 @@ a.btn.btn-primary:focus {
     font-size: 50px;
     font-weight: 700;
 }
+
+.card {
+    width: 100%;
+}
+
+.smoothies {
+    margin: 30px;
+}

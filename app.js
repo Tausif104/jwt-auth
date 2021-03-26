@@ -6,6 +6,7 @@ const app = express()
 
 // middleware
 app.use(express.static('public'))
+app.use(express.json())
 
 // view engine
 app.set('view engine', 'ejs')
@@ -24,5 +25,7 @@ const PORT = process.env.PORT || 5000
 // routes
 app.get('/', (req, res) => res.render('home'))
 app.get('/smoothies', (req, res) => res.render('smoothies'))
+
+app.use('/auth', require('./routes/authRoutes'))
 
 app.listen(PORT, () => console.log(`Server is running at port ${PORT}`))
